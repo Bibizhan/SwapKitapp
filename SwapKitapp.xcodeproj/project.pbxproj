@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB48D0CAC1C0BC28315105E /* Pods_SwapKitapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A213D715BB1705639D8E453B /* Pods_SwapKitapp.framework */; };
+		F7485FB2208BA5E100643BB9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FB1208BA5E100643BB9 /* SignInViewController.swift */; };
+		F7485FB4208BA5F200643BB9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FB3208BA5F200643BB9 /* SignUpViewController.swift */; };
+		F7485FB6208C3AC600643BB9 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FB5208C3AC600643BB9 /* MessagesViewController.swift */; };
+		F7485FC5208C89E200643BB9 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FC4208C89E200643BB9 /* SideMenuViewController.swift */; };
+		F7485FC8208C8F3C00643BB9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FC7208C8F3C00643BB9 /* Constants.swift */; };
+		F7485FCA208C920F00643BB9 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FC9208C920F00643BB9 /* SideMenuTableViewCell.swift */; };
+		F7485FCC208CC87F00643BB9 /* MyBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FCB208CC87F00643BB9 /* MyBooksViewController.swift */; };
+		F7485FCE208CC89200643BB9 /* MyNeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FCD208CC89200643BB9 /* MyNeedsViewController.swift */; };
+		F7485FD0208CC89D00643BB9 /* BookSwapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FCF208CC89D00643BB9 /* BookSwapViewController.swift */; };
+		F7485FD7208D1B6300643BB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FD6208D1B6300643BB9 /* User.swift */; };
+		F7485FDB208DC9DC00643BB9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7485FDA208DC9DC00643BB9 /* Book.swift */; };
+		F75B5F3F208B2B620076BA0B /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B5F3E208B2B620076BA0B /* Stopwatch.swift */; };
+		F75B5F41208B42B10076BA0B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B5F40208B42B10076BA0B /* LoginViewController.swift */; };
+		F75B5F43208B4F590076BA0B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B5F42208B4F590076BA0B /* ProfileViewController.swift */; };
+		F75B5F45208B57D30076BA0B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B5F44208B57D30076BA0B /* SearchViewController.swift */; };
+		F75B5F49208B689E0076BA0B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B5F48208B689E0076BA0B /* PageViewController.swift */; };
+		F75B5F4B208B6E240076BA0B /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B5F4A208B6E240076BA0B /* ViewController1.swift */; };
+		F75B5F4D208B6E4D0076BA0B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B5F4C208B6E4D0076BA0B /* ViewController2.swift */; };
+		F7999C48207CAA9F00ACE42C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7999C47207CAA9F00ACE42C /* AppDelegate.swift */; };
+		F7999C4A207CAA9F00ACE42C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7999C49207CAA9F00ACE42C /* SecondViewController.swift */; };
+		F7999C50207CAA9F00ACE42C /* SwapKitapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7999C4E207CAA9F00ACE42C /* SwapKitapp.xcdatamodeld */; };
+		F7999C52207CAA9F00ACE42C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7999C51207CAA9F00ACE42C /* Assets.xcassets */; };
+		F7999C55207CAA9F00ACE42C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7999C53207CAA9F00ACE42C /* LaunchScreen.storyboard */; };
+		F7999C5F207CC98200ACE42C /* String+ConformToColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7999C5E207CC98200ACE42C /* String+ConformToColor.swift */; };
+		F7999C61207CC98F00ACE42C /* UIColor+Plallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7999C60207CC98E00ACE42C /* UIColor+Plallete.swift */; };
+		F7999C64207CCC8500ACE42C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7999C63207CCC8400ACE42C /* GoogleService-Info.plist */; };
+		F7999C67207CCFBF00ACE42C /* UITextField+Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7999C66207CCFBF00ACE42C /* UITextField+Line.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A213D715BB1705639D8E453B /* Pods_SwapKitapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwapKitapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8765A149C18BB2345A7DFC /* Pods-SwapKitapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwapKitapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwapKitapp/Pods-SwapKitapp.debug.xcconfig"; sourceTree = "<group>"; };
+		F7485FB1208BA5E100643BB9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F7485FB3208BA5F200643BB9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F7485FB5208C3AC600643BB9 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		F7485FC4208C89E200643BB9 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		F7485FC7208C8F3C00643BB9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F7485FC9208C920F00643BB9 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		F7485FCB208CC87F00643BB9 /* MyBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksViewController.swift; sourceTree = "<group>"; };
+		F7485FCD208CC89200643BB9 /* MyNeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNeedsViewController.swift; sourceTree = "<group>"; };
+		F7485FCF208CC89D00643BB9 /* BookSwapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSwapViewController.swift; sourceTree = "<group>"; };
+		F7485FD6208D1B6300643BB9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F7485FDA208DC9DC00643BB9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		F75B5F3E208B2B620076BA0B /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		F75B5F40208B42B10076BA0B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F75B5F42208B4F590076BA0B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F75B5F44208B57D30076BA0B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F75B5F48208B689E0076BA0B /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F75B5F4A208B6E240076BA0B /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		F75B5F4C208B6E4D0076BA0B /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		F7999C44207CAA9F00ACE42C /* SwapKitapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwapKitapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7999C47207CAA9F00ACE42C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7999C49207CAA9F00ACE42C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F7999C4F207CAA9F00ACE42C /* SwapKitapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwapKitapp.xcdatamodel; sourceTree = "<group>"; };
+		F7999C51207CAA9F00ACE42C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7999C54207CAA9F00ACE42C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7999C56207CAA9F00ACE42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7999C5E207CC98200ACE42C /* String+ConformToColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+ConformToColor.swift"; sourceTree = "<group>"; };
+		F7999C60207CC98E00ACE42C /* UIColor+Plallete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Plallete.swift"; sourceTree = "<group>"; };
+		F7999C63207CCC8400ACE42C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7999C66207CCFBF00ACE42C /* UITextField+Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Line.swift"; sourceTree = "<group>"; };
+		FA31389FBD5FCA6BC4761552 /* Pods-SwapKitapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwapKitapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwapKitapp/Pods-SwapKitapp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7999C41207CAA9F00ACE42C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB48D0CAC1C0BC28315105E /* Pods_SwapKitapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91E1EE2F080AB1FB9985530B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A213D715BB1705639D8E453B /* Pods_SwapKitapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABB2909878B61484C78FF581 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC8765A149C18BB2345A7DFC /* Pods-SwapKitapp.debug.xcconfig */,
+				FA31389FBD5FCA6BC4761552 /* Pods-SwapKitapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7485FB9208C86F700643BB9 /* Pager */ = {
+			isa = PBXGroup;
+			children = (
+				F75B5F48208B689E0076BA0B /* PageViewController.swift */,
+				F75B5F4A208B6E240076BA0B /* ViewController1.swift */,
+				F75B5F4C208B6E4D0076BA0B /* ViewController2.swift */,
+			);
+			path = Pager;
+			sourceTree = "<group>";
+		};
+		F7485FBC208C876700643BB9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F75B5F40208B42B10076BA0B /* LoginViewController.swift */,
+				F7485FB3208BA5F200643BB9 /* SignUpViewController.swift */,
+				F7485FB1208BA5E100643BB9 /* SignInViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F7485FBE208C877900643BB9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7485FC4208C89E200643BB9 /* SideMenuViewController.swift */,
+				F7485FC1208C88E700643BB9 /* SideMenu */,
+				F7485FB9208C86F700643BB9 /* Pager */,
+				F7485FBC208C876700643BB9 /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F7485FBF208C878C00643BB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7999C51207CAA9F00ACE42C /* Assets.xcassets */,
+				F7999C53207CAA9F00ACE42C /* LaunchScreen.storyboard */,
+				F7999C56207CAA9F00ACE42C /* Info.plist */,
+				F7999C63207CCC8400ACE42C /* GoogleService-Info.plist */,
+				F7999C4E207CAA9F00ACE42C /* SwapKitapp.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7485FC0208C87A200643BB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F75B5F3E208B2B620076BA0B /* Stopwatch.swift */,
+				F7485FD6208D1B6300643BB9 /* User.swift */,
+				F7485FDA208DC9DC00643BB9 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7485FC1208C88E700643BB9 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F7999C49207CAA9F00ACE42C /* SecondViewController.swift */,
+				F7485FB5208C3AC600643BB9 /* MessagesViewController.swift */,
+				F75B5F42208B4F590076BA0B /* ProfileViewController.swift */,
+				F75B5F44208B57D30076BA0B /* SearchViewController.swift */,
+				F7485FD1208CC8A500643BB9 /* Profile */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		F7485FC6208C8F2B00643BB9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F7485FC7208C8F3C00643BB9 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F7485FD1208CC8A500643BB9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F7485FCB208CC87F00643BB9 /* MyBooksViewController.swift */,
+				F7485FCD208CC89200643BB9 /* MyNeedsViewController.swift */,
+				F7485FCF208CC89D00643BB9 /* BookSwapViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F7999C3B207CAA9F00ACE42C = {
+			isa = PBXGroup;
+			children = (
+				F7999C46207CAA9F00ACE42C /* SwapKitapp */,
+				F7999C45207CAA9F00ACE42C /* Products */,
+				ABB2909878B61484C78FF581 /* Pods */,
+				91E1EE2F080AB1FB9985530B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7999C45207CAA9F00ACE42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7999C44207CAA9F00ACE42C /* SwapKitapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7999C46207CAA9F00ACE42C /* SwapKitapp */ = {
+			isa = PBXGroup;
+			children = (
+				F7999C47207CAA9F00ACE42C /* AppDelegate.swift */,
+				F7485FC0208C87A200643BB9 /* Models */,
+				F7485FBE208C877900643BB9 /* Controllers */,
+				F7485FBF208C878C00643BB9 /* Supporting Files */,
+				F7485FC6208C8F2B00643BB9 /* Helpers */,
+				F7999C65207CCF8200ACE42C /* Extensions */,
+				F7485FC9208C920F00643BB9 /* SideMenuTableViewCell.swift */,
+			);
+			path = SwapKitapp;
+			sourceTree = "<group>";
+		};
+		F7999C65207CCF8200ACE42C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7999C5E207CC98200ACE42C /* String+ConformToColor.swift */,
+				F7999C60207CC98E00ACE42C /* UIColor+Plallete.swift */,
+				F7999C66207CCFBF00ACE42C /* UITextField+Line.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7999C43207CAA9F00ACE42C /* SwapKitapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7999C59207CAA9F00ACE42C /* Build configuration list for PBXNativeTarget "SwapKitapp" */;
+			buildPhases = (
+				FBABEA94922D74BD96500B4D /* [CP] Check Pods Manifest.lock */,
+				F7999C40207CAA9F00ACE42C /* Sources */,
+				F7999C41207CAA9F00ACE42C /* Frameworks */,
+				F7999C42207CAA9F00ACE42C /* Resources */,
+				3004760EC3147F23A5A284A8 /* [CP] Embed Pods Frameworks */,
+				69781170D367B50F022BBDDB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwapKitapp;
+			productName = SwapKitapp;
+			productReference = F7999C44207CAA9F00ACE42C /* SwapKitapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7999C3C207CAA9F00ACE42C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SDU;
+				TargetAttributes = {
+					F7999C43207CAA9F00ACE42C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7999C3F207CAA9F00ACE42C /* Build configuration list for PBXProject "SwapKitapp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7999C3B207CAA9F00ACE42C;
+			productRefGroup = F7999C45207CAA9F00ACE42C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7999C43207CAA9F00ACE42C /* SwapKitapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7999C42207CAA9F00ACE42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7999C55207CAA9F00ACE42C /* LaunchScreen.storyboard in Resources */,
+				F7999C52207CAA9F00ACE42C /* Assets.xcassets in Resources */,
+				F7999C64207CCC8500ACE42C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3004760EC3147F23A5A284A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwapKitapp/Pods-SwapKitapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/Segmentio/Segmentio.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideController/SlideController.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Segmentio.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwapKitapp/Pods-SwapKitapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69781170D367B50F022BBDDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwapKitapp/Pods-SwapKitapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBABEA94922D74BD96500B4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwapKitapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7999C40207CAA9F00ACE42C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75B5F45208B57D30076BA0B /* SearchViewController.swift in Sources */,
+				F75B5F4B208B6E240076BA0B /* ViewController1.swift in Sources */,
+				F7999C61207CC98F00ACE42C /* UIColor+Plallete.swift in Sources */,
+				F7485FB6208C3AC600643BB9 /* MessagesViewController.swift in Sources */,
+				F7485FD0208CC89D00643BB9 /* BookSwapViewController.swift in Sources */,
+				F7485FD7208D1B6300643BB9 /* User.swift in Sources */,
+				F7999C4A207CAA9F00ACE42C /* SecondViewController.swift in Sources */,
+				F75B5F49208B689E0076BA0B /* PageViewController.swift in Sources */,
+				F7999C50207CAA9F00ACE42C /* SwapKitapp.xcdatamodeld in Sources */,
+				F75B5F4D208B6E4D0076BA0B /* ViewController2.swift in Sources */,
+				F7485FB2208BA5E100643BB9 /* SignInViewController.swift in Sources */,
+				F7999C67207CCFBF00ACE42C /* UITextField+Line.swift in Sources */,
+				F7485FB4208BA5F200643BB9 /* SignUpViewController.swift in Sources */,
+				F7485FCE208CC89200643BB9 /* MyNeedsViewController.swift in Sources */,
+				F75B5F41208B42B10076BA0B /* LoginViewController.swift in Sources */,
+				F7999C5F207CC98200ACE42C /* String+ConformToColor.swift in Sources */,
+				F75B5F43208B4F590076BA0B /* ProfileViewController.swift in Sources */,
+				F7485FC8208C8F3C00643BB9 /* Constants.swift in Sources */,
+				F75B5F3F208B2B620076BA0B /* Stopwatch.swift in Sources */,
+				F7485FCA208C920F00643BB9 /* SideMenuTableViewCell.swift in Sources */,
+				F7485FCC208CC87F00643BB9 /* MyBooksViewController.swift in Sources */,
+				F7485FC5208C89E200643BB9 /* SideMenuViewController.swift in Sources */,
+				F7485FDB208DC9DC00643BB9 /* Book.swift in Sources */,
+				F7999C48207CAA9F00ACE42C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7999C53207CAA9F00ACE42C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7999C54207CAA9F00ACE42C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7999C57207CAA9F00ACE42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7999C58207CAA9F00ACE42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7999C5A207CAA9F00ACE42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8765A149C18BB2345A7DFC /* Pods-SwapKitapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 496LRACY3P;
+				INFOPLIST_FILE = "$(SRCROOT)/SwapKitapp/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bibizhan.160103007.SwapKitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7999C5B207CAA9F00ACE42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA31389FBD5FCA6BC4761552 /* Pods-SwapKitapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 496LRACY3P;
+				INFOPLIST_FILE = "$(SRCROOT)/SwapKitapp/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bibizhan.160103007.SwapKitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7999C3F207CAA9F00ACE42C /* Build configuration list for PBXProject "SwapKitapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7999C57207CAA9F00ACE42C /* Debug */,
+				F7999C58207CAA9F00ACE42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7999C59207CAA9F00ACE42C /* Build configuration list for PBXNativeTarget "SwapKitapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7999C5A207CAA9F00ACE42C /* Debug */,
+				F7999C5B207CAA9F00ACE42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7999C4E207CAA9F00ACE42C /* SwapKitapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7999C4F207CAA9F00ACE42C /* SwapKitapp.xcdatamodel */,
+			);
+			currentVersion = F7999C4F207CAA9F00ACE42C /* SwapKitapp.xcdatamodel */;
+			path = SwapKitapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7999C3C207CAA9F00ACE42C /* Project object */;
+}
